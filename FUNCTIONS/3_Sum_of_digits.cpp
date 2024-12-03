@@ -9,7 +9,7 @@ int SOD(int n){
   while(n>0){
     int r = n%10;
     sum += r;
-    n = n/10;
+    n /=10;
   }
   return sum;
 }
