@@ -1,3 +1,5 @@
+//PLATEFORM  == GOOGKE KICK START
+
 // Problem: Length of Longest Contiguous Arithmetic Subarray
 // Problem Statement:
 // Given an array of integers, write a program to find the length of the longest contiguous subarray 
