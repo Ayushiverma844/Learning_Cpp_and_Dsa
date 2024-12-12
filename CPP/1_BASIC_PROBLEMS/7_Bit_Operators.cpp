@@ -1,4 +1,3 @@
-
 #include<iostream>
 using namespace std;
 
@@ -29,6 +28,12 @@ int main(){
 
     cout << "Bitwise Right Shift of a = " << (a >> 2) << endl;
     cout << "Bitwise Right Shift of b = " << (b >> 2) << endl;
+
+    //1's compelement  '~'
+
+    cout<<"1's compelement of a = "<<~a<<endl;
+    cout<<"1's compelement of b = "<<~b<<endl;
+
 
     return 0;
 }
