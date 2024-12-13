@@ -1,3 +1,5 @@
+//Reverse string using recursion
+
 #include<iostream>
 #include<string>
 using namespace std;
@@ -15,10 +17,10 @@ void reverse(string str){
     cout<<str[0];
 }
 
-int main() {
-   string s;
-   cout<<"Enter string: ";
-   getline(cin,s);
+  int main() {
+    string s;
+    cout<<"Enter string: ";
+    getline(cin,s);
 
  
    cout<<"Reverse of "<<s<<" is = "; 
