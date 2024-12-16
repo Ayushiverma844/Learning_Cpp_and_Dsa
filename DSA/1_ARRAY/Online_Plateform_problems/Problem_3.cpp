@@ -1,7 +1,8 @@
 //Amazon question
 
 // Problem Explanation:
-// Given an array of integers and a target sum s, you need to find a subarray (a contiguous sequence of elements) whose sum is exactly equal to s. If multiple subarrays satisfy the condition, return the first one you find.
+// Given an array of integers and a target sum s, you need to find a subarray (a contiguous sequence of elements) whose sum 
+//is exactly equal to s. If multiple subarrays satisfy the condition, return the first one you find.
 
 // Input:
 // n: The size of the array.
