@@ -3,7 +3,7 @@
 // Each row is sorted in ascending order from left to right.
 // Each column is sorted in ascending order from top to bottom.
 
-
+                   //BRUTE FORCE APPROACH
 
 #include<iostream>
 using namespace std;
