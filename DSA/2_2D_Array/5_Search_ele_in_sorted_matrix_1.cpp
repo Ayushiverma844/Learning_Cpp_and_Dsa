@@ -34,7 +34,7 @@ int main(){
             found = true;
             break;  // Exit the loop once the target is found
         }
-        if(a[r][c] > target){
+        else if(a[r][c] > target){
             c--;   // Move left if the target is smaller
         }else{
             r++;   // Move down if the target is larger
