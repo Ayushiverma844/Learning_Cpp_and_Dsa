@@ -1,6 +1,4 @@
-// STACK USING LINKED LIST
-
-            
+                        // Stack using linked list
 #include<iostream>
 #include<list>
 using namespace std;
