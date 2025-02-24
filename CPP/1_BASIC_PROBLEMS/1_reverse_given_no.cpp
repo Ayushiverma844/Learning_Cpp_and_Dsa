@@ -1,3 +1,13 @@
+// Problem Statement:
+// Given a positive integer n, your task is to print the reverse of that number.
+
+// Input: A positive integer n.
+// Output: Print the digits of n in reverse order.
+
+// Example:
+// Input:  12345
+// Output: 54321
+
 
 #include<iostream>
 using namespace std;

@@ -1,4 +1,13 @@
-//Wap to accept 2 no from the user and swap them. 
+// Problem Statement:
+
+// Write a program that accepts two integers a and b from the user, swaps their values, and then prints the swapped values.
+// Input:
+// Enter a= 5
+// Enter b= 10
+
+// Output:
+// a=10
+// b=5
 
 #include<iostream>
 using namespace std;

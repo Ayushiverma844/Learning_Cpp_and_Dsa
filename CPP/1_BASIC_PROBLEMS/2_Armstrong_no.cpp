@@ -1,3 +1,10 @@
+// Problem Statement:
+
+// Given a positive integer n, determine if the number is an Armstrong number.
+
+// An Armstrong number is a number where the sum of the cubes of its digits is equal to the number itself. For example, 153 is an Armstrong number because 
+// 153 = 1^3 + 5^3 + 3^3 == 153
+//Output: 153 is an armstrong no
 
 #include<iostream>
 using namespace std;
