@@ -1,3 +1,21 @@
+// Problem Statement:
+
+// Given two integers a and b, perform the following bitwise operations:
+
+// Compute the bitwise AND of a and b.
+// Compute the bitwise OR of a and b.
+// Compute the bitwise XOR of a and b.
+// Perform a left shift on both a and b by 2 positions.
+// Perform a right shift on both a and b by 2 positions.
+// Find the 1's complement of a and b.
+// Input:
+
+// Two integers a and b.
+// Output:
+
+// Display the results of each bitwise operation.
+
+
 #include<iostream>
 using namespace std;
 

@@ -1,5 +1,31 @@
-//hackerrank ques
-//ques description = https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
+// Problem Statement:
+
+// A student’s grade is rounded according to the following rules:
+
+// If the grade is less than 38, no rounding occurs.
+// If the grade is 38 or greater, it is rounded to the nearest multiple of 5 if the difference between the grade and the next multiple of 5 is less than 3.
+// Write a function that takes a list of grades and returns a list with the rounded grades according to the rules above.
+
+// Input:
+
+// A list of integers grades, where each integer represents a student's grade.
+// Output:
+
+// A list of integers where each grade is rounded according to the specified rules.
+// Example:
+
+// Input:
+// grades = [73, 67, 38, 33]
+
+// Output:
+// [75, 67, 40, 33]
+
+// Explanation:
+
+// 73 is rounded to 75.
+// 67 remains the same.
+// 38 is rounded to 40.
+// 33 remains the same since it is less than 38.
 
 #include <iostream>
 #include<vector>
