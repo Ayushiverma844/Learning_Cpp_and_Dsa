@@ -1,3 +1,24 @@
+// Problem Statement:
+// Write a program to convert a binary number to its decimal equivalent.
+
+// Input:
+// A binary number (a number containing only digits 0 and 1).
+// Output:
+// The decimal equivalent of the given binary number.
+// If the input contains any digit other than 0 or 1, display an error message:
+// "Wrong input!!! Binary digits only contain 0 and 1"
+
+// Example 1:
+// Input: Give a binary no: 1011
+// Output:
+// Decimal of 1011 is = 11
+
+// Example 2 (Invalid Input):
+// Input: Give a binary no: 1201
+// Output:
+// Wrong input!!!  
+// Binary digits only contain 0 and 1
+
 #include<iostream>
 using namespace std;
 
