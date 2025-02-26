@@ -1,4 +1,19 @@
-//
+//Problem Statement:
+// You are given an array heights[] where each element represents the height of a bar in a histogram. The width of each bar is 1. Your task is to find the area of the largest rectangle that can be formed within the histogram.
+
+// Input:
+// An integer array heights[] of size n where heights[i] represents the height of the i-th bar in the histogram.
+// Output:
+// Return the maximum rectangular area possible in the histogram.
+// Example:
+// Input:
+// heights = [2,1,5,6,2,3]
+
+// Output:
+// 10
+
+// Explanation:
+// The largest rectangle is formed using the heights [5,6] with width 2, giving an area of 5 × 2 = 10.
 
 
 #include<iostream>
