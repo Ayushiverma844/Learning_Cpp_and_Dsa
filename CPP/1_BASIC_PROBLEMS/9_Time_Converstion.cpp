@@ -1,4 +1,5 @@
-
+//Problem Statement 
+// Convert a given 12-hour format time string (e.g., "07:05:45PM") into 24-hour format (e.g., "19:05:45").
 
 #include <iostream>
 using namespace std;
