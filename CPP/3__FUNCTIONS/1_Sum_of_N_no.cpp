@@ -1,3 +1,5 @@
+//Write a C++ program to calculate the sum of all integers from 1 to n, where n is an input provided by the user.
+
 #include<iostream>
 using namespace std;
 
