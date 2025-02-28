@@ -21,3 +21,36 @@
 // Jump 2 steps to index 6 (last cloud).
 // Total Jumps: 4
 // Output: 4
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+// Function to find minimum jumps
+int minJumps(vector<int>& c) {
+    int jumps = 0;
+    int i = 0;
+    int n = c.size();
+
+    while (i < n - 1) {
+        if (i + 2 < n && c[i + 2] == 0) {
+            // if possible take 2 step
+            i += 2;
+        } else {
+            //otherwise 1 step
+            i += 1;
+        }
+        jumps++;
+    }
+
+    return jumps;
+}
+
+int main() {
+    vector<int> c = {0, 1, 0, 0, 0, 1, 0}; // Example input
+
+    cout <<"Possible minimum jump is = "<< minJumps(c) << endl; // Output: 4
+
+    return 0;
+}
