@@ -1,4 +1,9 @@
-//
+//Problem Statement:
+
+// Write a C++ program to convert an octal number (base-8) to its decimal equivalent (base-10).
+//  The program should take an octal number as input and output its decimal representation. 
+// If the input contains any invalid octal digits (i.e., digits other than 0-7),
+//  then the program should display an error message and terminate.
 
 #include<iostream>
 using namespace std;
