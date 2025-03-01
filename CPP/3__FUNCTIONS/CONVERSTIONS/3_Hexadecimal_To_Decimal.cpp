@@ -1,4 +1,9 @@
-//
+//Problem Statement:
+
+// Write a C++ program to convert a hexadecimal number (base-16) to its decimal equivalent (base-10). 
+// The program should take a hexadecimal number as input and output its decimal representation. 
+// If the input contains any invalid hexadecimal characters (i.e., characters other than 0-9 and A-F), 
+// the program should display an error message and terminate.
 
 #include<iostream>
 #include<string.h>
