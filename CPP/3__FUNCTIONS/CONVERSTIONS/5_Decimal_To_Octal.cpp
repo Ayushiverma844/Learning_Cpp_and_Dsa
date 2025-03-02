@@ -1,4 +1,15 @@
-// 
+// Decimal to Octal Conversion
+
+// Write a program that converts a given decimal number into its octal representation without using built-in functions. The program should take an integer as input and output its octal equivalent as an integer (not a string).
+
+// Input Format: A single integer N (0 ≤ N ≤ 10⁶).
+// Output Format: A single integer representing the octal equivalent of N.
+
+// Example:
+// Input:  
+// 65  
+// Output:  
+// 101
 
 #include<iostream>
 using namespace std;
