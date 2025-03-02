@@ -1,4 +1,14 @@
-//
+//Problem Statement 1: Decimal to Binary Conversion
+// Write a program that converts a given decimal number into its binary representation without using built-in functions. The program should take an integer as input and output its binary equivalent as an integer (not a string).
+
+// Input Format: A single integer N (0 ≤ N ≤ 10⁶).
+// Output Format: A single integer representing the binary equivalent of N.
+
+// Example:
+// Input:  
+// 5  
+// Output:  
+// 101
 
 #include<iostream>
 using namespace std;
