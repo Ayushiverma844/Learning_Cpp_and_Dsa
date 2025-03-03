@@ -1,3 +1,5 @@
+//
+
 #include<iostream>
 #include<cmath>   // For the pow() function (used for reversing the result later)
 using namespace std;
