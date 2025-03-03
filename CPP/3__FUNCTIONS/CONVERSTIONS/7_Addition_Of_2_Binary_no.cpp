@@ -1,4 +1,35 @@
-//
+//Problem Statement:
+
+// Write a program that adds two binary numbers.
+
+// Input:
+
+// Two binary numbers a and b (each in the form of integer input where each digit is either 0 or 1).
+// Output:
+
+// The binary sum of the two input binary numbers.
+// Functionality:
+
+// The program should take two binary numbers as input.
+// It should perform the binary addition of these two numbers.
+// Finally, it should display the result in binary form.
+
+// For example:
+
+// Input:
+// 1011
+// 1101
+
+// Output:
+
+//  1011
+// +1101
+// ______
+// 11000
+
+// The program should handle:
+// Carry-over between binary digits.
+// Leading zeros in the binary result.
 
 #include<iostream>
 #include<cmath>   // For the pow() function (used for reversing the result later)
