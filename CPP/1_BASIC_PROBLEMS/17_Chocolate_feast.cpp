@@ -1,3 +1,31 @@
+//Problem Statement: Chocolate Feast
+
+// A person has ₹n and wants to buy chocolates. Each chocolate costs ₹c. Additionally, for every m wrappers collected, the person can exchange them for one additional chocolate.
+
+// Write a program to calculate the total number of chocolates the person can eat, including the chocolates obtained by exchanging wrappers.
+
+// Input Format:
+// The program should take three integers as input:
+
+// n – Total money available
+// c – Cost of one chocolate
+// m – Number of wrappers required for one extra chocolate
+// Output Format:
+// Print the total number of chocolates the person can eat.
+
+// Example:
+
+// Input:
+// 10 2 5
+// Explanation:
+// ₹10 can buy 10/2 = 5 chocolates initially.
+// The 5 chocolates provide 5 wrappers.
+// Since 5 wrappers can be exchanged for 1 more chocolate, the total chocolates eaten = 5 + 1 = 6.
+// Output:
+// Total chocolates eaten: 6
+
+
+
 #include <iostream>
 using namespace std;
 
