@@ -1,3 +1,15 @@
+//Problem Statement:
+// Write a C++ program to calculate the combination (nCr) using the formula:
+
+// nCr = n! / r! * (n - r)!
+ 
+// The program should:
+
+// Take two integer inputs n and r from the user.
+// Validate that r ≤ n and n is non-negative, otherwise print an error message.
+// Compute the combination using a factorial function.
+// Display the result.
+
 #include<iostream>
 using namespace std;
 
