@@ -1,4 +1,7 @@
-//
+//Problem Statement:
+// Write a C++ program to check whether a given number n is a power of 2 or not.
+
+
 
 #include<iostream>
 using namespace std;
