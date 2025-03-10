@@ -1,4 +1,7 @@
-//
+//Problem Statement:
+// Write a C++ program to find and display all prime numbers between 1 and a given number n.
+
+
 
 #include<iostream>
 using namespace std;
