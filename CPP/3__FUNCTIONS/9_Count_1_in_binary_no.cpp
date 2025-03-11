@@ -1,3 +1,7 @@
+//Problem Statement:
+
+// Write a C++ program to count the number of 1s in the binary representation of a given integer using bitwise operations.
+
 #include<iostream>
 using namespace std;
 
