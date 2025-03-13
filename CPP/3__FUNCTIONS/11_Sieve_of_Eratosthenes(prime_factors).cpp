@@ -1,4 +1,20 @@
-//Find all prime factors of n using SIEVE EROTOSTHENES METHOD
+
+// Problem Statement:
+// Write a C++ program to find and print all the prime factors of a given number n using the Sieve of Eratosthenes method.
+
+// Input:
+// A single integer n (where n > 1).
+// Output:
+// A list of prime factors of n, printed in ascending order.
+// Constraints:
+// n should be a positive integer greater than 1.
+// Example:
+
+// Input:
+// Enter a number: 30  
+// Output:
+// All prime factors of 30:  
+// 2 3 5  
 
 #include<iostream>
 using namespace std;
