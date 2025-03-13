@@ -1,3 +1,29 @@
+//Problem Statement:
+// Write a C++ program to generate and print all possible subsets (power set) of a given set of integers.
+
+// Input:
+// An integer n, representing the number of elements in the set.
+// n space-separated integers representing the elements of the set.
+// Output:
+// All possible subsets of the given set, including the empty subset {}. Each subset should be printed on a new line.
+// Constraints:
+// n should be a positive integer. If n is zero or negative, display an error message and terminate the program.
+// Example:
+
+// Input:
+// Enter size: 3  
+// Enter elements: 1 2 3  
+
+// Output:
+// {}  
+// 1  
+// 2  
+// 1 2  
+// 3  
+// 1 3  
+// 2 3  
+// 1 2 3  
+
 #include<iostream>
 using namespace std;
 
