@@ -1,4 +1,13 @@
-//Find prime number from 2 to n using SIEVE EROTOSTHENES METHOD
+// Problem Statement:
+// Write a program to find all prime numbers from 2 to N using the Sieve of Eratosthenes method.
+
+// Input:
+// An integer N (2 ≤ N ≤ 10^6), representing the upper limit of the range.
+// Output:
+// A list of all prime numbers between 2 and N, printed in ascending order.
+// Constraints:
+// The solution should run efficiently for large values of N (up to 10^6).
+// Use an array-based sieve approach to mark non-prime numbers.
 
 #include<iostream>
 using namespace std;
