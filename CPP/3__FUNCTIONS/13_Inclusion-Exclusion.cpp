@@ -1,4 +1,6 @@
-//Inclusion - Exclusion Principle
+                                          //Inclusion - Exclusion Principle
+
+//
 
 #include<iostream>
 using namespace std;
