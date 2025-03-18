@@ -1,27 +1,27 @@
-//Problem Statement:
+// //Problem Statement:
 
-Write a program to validate if a given string has balanced parentheses, curly braces, and square brackets. The program should be able to detect whether each opening bracket has a corresponding closing bracket in the correct order.
+// Write a program to validate if a given string has balanced parentheses, curly braces, and square brackets. The program should be able to detect whether each opening bracket has a corresponding closing bracket in the correct order.
 
-Requirements:
-The input is a string consisting of characters such as (), {}, [], and other characters that are not relevant to the validation.
-The program should check if the parentheses, curly braces, and square brackets are balanced:
-For every opening bracket (, {, or [, there should be a corresponding closing bracket ), }, or ].
-The brackets must be properly nested. For example, ({[]}) is valid, but ([)] is not.
-The program should return:
-"valid string" if the string has properly balanced brackets.
-"invalid string" if the string does not have properly balanced brackets.
-Example Inputs and Outputs:
-Example 1:
+// Requirements:
+// The input is a string consisting of characters such as (), {}, [], and other characters that are not relevant to the validation.
+// The program should check if the parentheses, curly braces, and square brackets are balanced:
+// For every opening bracket (, {, or [, there should be a corresponding closing bracket ), }, or ].
+// The brackets must be properly nested. For example, ({[]}) is valid, but ([)] is not.
+// The program should return:
+// "valid string" if the string has properly balanced brackets.
+// "invalid string" if the string does not have properly balanced brackets.
+// Example Inputs and Outputs:
+// Example 1:
 
-Input: ({[()]})
-Output: ({[()]}) is valid string
-Example 2:
+// Input: ({[()]})
+// Output: ({[()]}) is valid string
+// Example 2:
 
-Input: ({[([))}
-Output: ({[([))} is invalid string
-Constraints:
-The maximum size of the input string is 100 characters.
-The string contains only the characters (), {}, [], and other non-bracket characters.
+// Input: ({[([))}
+// Output: ({[([))} is invalid string
+// Constraints:
+// The maximum size of the input string is 100 characters.
+// The string contains only the characters (), {}, [], and other non-bracket characters.
 // The program should utilize a stack data structure to ensure the correct order of the brackets and should return the result as per the conditions mentioned.
 
 #include<iostream>
