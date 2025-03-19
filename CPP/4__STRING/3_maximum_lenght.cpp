@@ -1,35 +1,28 @@
 //Problem Statement:
-You are given a string consisting of words separated by spaces. Your task is to find the longest word in the string and return it, along with its length. If there are multiple words of the longest length, return the first one encountered.
+// You are given a string consisting of words separated by spaces. Your task is to find the longest word in the string and return it, along with its length. If there are multiple words of the longest length, return the first one encountered.
 
-Input:
-A string arr consisting of words separated by spaces. The string may contain leading or trailing spaces and can include multiple spaces between words.
+// Input:
+// A string arr consisting of words separated by spaces. The string may contain leading or trailing spaces and can include multiple spaces between words.
 
-Output:
-The longest word in the string.
+// Output:
+// The longest word in the string.
 
-The length of the longest word.
+// The length of the longest word.
 
-Approach:
-Traverse through the string to identify words. A word is defined as a sequence of non-space characters.
+// Approach:
+// Traverse through the string to identify words. A word is defined as a sequence of non-space characters.
 
-Track the length of the current word as you encounter each character.
+// Track the length of the current word as you encounter each character.
 
-Whenever a space or the end of the string is encountered, check if the current word is the longest one encountered so far. If so, update the longest word and its length.
+// Whenever a space or the end of the string is encountered, check if the current word is the longest one encountered so far. If so, update the longest word and its length.
 
-After processing the string, output the longest word and its length.
+// After processing the string, output the longest word and its length.
 
-Example:
-Input:
-
-csharp
-Copy
-Enter a string: This is an example string with multiple words
-Output:
-
-arduino
-Copy
-Longest word: multiple
-Length of longest word: 8
+// Example:
+// Input:  Enter a string: This is an example string with multiple words
+// Output : 
+// Longest word: multiple
+// Length of longest word: 8
 
 #include <iostream>
 #include <string>
