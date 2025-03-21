@@ -1,3 +1,18 @@
+//Problem Statement:
+// Write a C++ program that converts a given string to uppercase and then to lowercase using the transform function from the <algorithm> library. The program should:
+
+// Define a string with both uppercase and lowercase characters.
+
+// Display the original string.
+
+// Convert the entire string to uppercase and print the result.
+
+// Convert the uppercase string back to lowercase and print the result.
+
+
+
+
+
 #include <iostream>
 #include<algorithm>
 #include <string>
