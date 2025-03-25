@@ -1,4 +1,10 @@
-// 
+// Problem Statement:
+// Write a C++ program that defines a Student class to store and manage details of three students. The class should include attributes for name, age, and gender of each student. Implement member functions to:
+
+// Input student details (name, age, gender) using a loop.
+
+// Display student details in a structured format.
+// Ensure that the program correctly handles input, including spaces in names, and properly formats the output.
 
 #include <iostream>
 using namespace std;
