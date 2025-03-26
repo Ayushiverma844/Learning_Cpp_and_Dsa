@@ -30,4 +30,29 @@ class Solution {
             return count;
         }
     };
+
+    int main() {
+        int m, n, x;
+        cout << "Enter rows and columns of grid: ";
+        cin >> m >> n;
+    
+        vector<vector<int>> grid(m, vector<int>(n));
+    
+        cout << "Enter grid elements:\n";
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                cin >> grid[i][j];
+            }
+        }
+    
+        cout << "Enter value of x: ";
+        cin >> x;
+    
+        Solution obj;
+        int result = obj.minOperations(grid, x);
+    
+        cout << "Minimum operations required: " << result << endl;
+    
+        return 0;
+    }
     
