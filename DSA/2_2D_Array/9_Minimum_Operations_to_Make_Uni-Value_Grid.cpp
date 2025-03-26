@@ -1,3 +1,25 @@
+// Problem Statement: Minimum Operations to Make Grid Elements Equal
+// You are given a 2D grid of size m x n where each cell contains an integer. You are also given an integer x.
+
+// In one operation, you can increase or decrease any grid element by x (i.e., grid[i][j] += x or grid[i][j] -= x).
+
+// Your task is to determine the minimum number of operations required to make all elements of the grid equal.
+
+// If it is impossible to make all elements equal using the given operation, return -1.
+
+// Input Format:
+// An integer m representing the number of rows in the grid.
+
+// An integer n representing the number of columns in the grid.
+
+// An m x n matrix containing integers.
+
+// An integer x representing the step value.
+
+// Output Format:
+// An integer representing the minimum number of operations required to make all elements equal.
+
+// If it's not possible, return -1.
 
 
 class Solution {
