@@ -1,3 +1,14 @@
+// //Problem Statement:
+// Write a C++ program to create a Student class that stores a student's name, age, and marks in three subjects. Implement the following functionalities:
+
+// Detail() – Accepts the student's name, age, and marks for three subjects.
+
+// Average() – Calculates and returns the average of the three marks.
+
+// Display() – Displays the student's name, age, and average marks.
+
+// The program should allow a user to input a student's details and then display the details along with the calculated average marks.
+
 #include <iostream>
 using namespace std;
 
