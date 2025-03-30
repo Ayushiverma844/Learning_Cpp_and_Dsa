@@ -1,3 +1,64 @@
+// Problem Statement: Library Book Return System
+// A library wants to implement a Book Return System to manage book returns and calculate overdue fines. The system should perform the following tasks:
+
+// Book Representation:
+
+// Each book has a title, return time (in days), and overdue days (negative if not overdue).
+
+// Library Management:
+
+// A queue-based system is used to manage returned books.
+
+// The system should process books one by one from the return queue.
+
+// If a book is overdue, a fine of $1.5 per day should be calculated and added to the total fines.
+
+// The system should display the book details, including fines if applicable.
+
+// Processing Returns:
+
+// The system should process all returned books and display their details, including whether a fine is incurred.
+
+// Total Fine Calculation:
+
+// After processing all books, the total fine collected should be displayed.
+
+// Example Execution:
+// Input :
+
+// "The Great Gatsby" (Returned 2 days late)
+
+// "1984" (Returned 1 day early, no fine)
+
+// "To Kill a Mockingbird" (Returned 3 days late)
+
+// "The Catcher in the Rye" (Returned on time, no fine)
+
+// Output:
+
+// Book Title: The Great Gatsby  
+// Return Time: 5  
+// Overdue Days: 2  
+// Fine incurred: $3.0  
+// ---------------------  
+// Book Title: 1984  
+// Return Time: 10  
+// Overdue Days: -1  
+// No fines incurred.  
+// ---------------------  
+// Book Title: To Kill a Mockingbird  
+// Return Time: 8  
+// Overdue Days: 3  
+// Fine incurred: $4.5  
+// ---------------------  
+// Book Title: The Catcher in the Rye  
+// Return Time: 12  
+// Overdue Days: 0  
+// No fines incurred.  
+// ---------------------  
+// Total fines collected: $7.5
+  
+
 #include <iostream>
 #include <string>
 #include <queue>
