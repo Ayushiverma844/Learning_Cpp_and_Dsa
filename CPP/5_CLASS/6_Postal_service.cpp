@@ -34,17 +34,17 @@ public:
         cout << "\nDestination of parcel: " << destination;
 
         if (size == "small" && destination == "domestic") {
-            cout << "\nProcessing time is 4 sec\n";   //(base time =2sec , small = 1sec, domestic = 1sec)
+            cout << "\nProcessing time is 4 sec\n";
         } else if (size == "small" && destination == "international") {
-            cout << "\nProcessing time is 7 sec\n";   //(base time = 2sec , small = 1sec , international = 3sec)
+            cout << "\nProcessing time is 7 sec\n";
         } else if (size == "medium" && destination == "domestic") {
-            cout << "\nProcessing time is 6 sec\n";   //(base time = 2sec , medium = 3sec , domestic = 1 sec)
+            cout << "\nProcessing time is 6 sec\n";
         } else if (size == "medium" && destination == "international") {
-            cout << "\nProcessing time is 9 sec\n";   //(base time = 2sec , medium = 3sec , international = 4sec)
+            cout << "\nProcessing time is 9 sec\n";
         } else if (size == "large" && destination == "domestic") {
-            cout << "\nProcessing time is 8 sec\n";   //(base time = 2sec , large = 5sec , domestic = 1 sec)
+            cout << "\nProcessing time is 8 sec\n";
         } else if (size == "large" && destination == "international") {
-            cout << "\nProcessing time is 11 sec\n";  //(base time = 2sec , large = 3sec , international = 4sec)
+            cout << "\nProcessing time is 11 sec\n";
         } else {
             cout << "\nInvalid input for size or destination.\n";
         }
@@ -85,17 +85,18 @@ public:
         front++;
     }
 
-    void display(int n) {
+    void display() {
         if (isEmpty()) {
-            cout << "Now Queue is empty!!\n";
+            cout << "Queue is empty!!\n";
             return;
         }
-        for (int i = 0; i<n; i++) {
-            cout << "Customer "<<i+1<<" ID: " << customers[i].getId() << endl;
-            parcels[i].processingTime();
-            cout<<"Parcel for customer"<<i+1<<" processed!!\n-----------------\n";
+        while (!isEmpty()) {
+            cout << "Customer ID: " << customers[front].getId() << endl;
+            parcels[front].processingTime();
+            cout << "Parcel for customer processed!!\n-----------------\n";
+            dequeue();  // Remove after processing
         }
-        cout<<"All Customer have been serve..";
+        cout << "All Customers have been served.\n";
     }
 };
 
@@ -104,26 +105,23 @@ int main() {
     Queue queue;
     Customer customer;
     Parcel parcel;
-    cout<<"Enter no of customer: ";
-    cin>>n;
 
-  for(int i=0;i<n;i++){
-    // Input customer ID
-    customer.inputId();
-    
-    // Input parcel details
-    parcel.parcelInput();
+    cout << "Enter number of customers: ";
+    cin >> n;
 
-    // Enqueue customer and parcel
-    queue.enqueue(customer, parcel);
-  }
+    if (n > 10) {
+        cout << "Max customers limit (10) exceeded. Only processing first 10.\n";
+        n = 10;
+    }
 
-cout<<"\nNo of customer : "<<n<<"\n------------\n";
-  
-    // Display the queue
-    queue.display(n);
-    // Dequeue a customer
-    queue.dequeue();
+    for (int i = 0; i < n; i++) {
+        customer.inputId();
+        parcel.parcelInput();
+        queue.enqueue(customer, parcel);
+    }
+
+    cout << "\nProcessing " << n << " customers:\n------------\n";
+    queue.display();
 
     return 0;
 }
