@@ -1,3 +1,64 @@
+//Problem Statement:
+// You are required to implement a system that processes a list of customers and their parcels. The system should ensure the following operations:
+
+// Input:
+
+// You are given an integer n (1 <= n <= 10), representing the number of customers.
+
+// For each customer, you will get their unique ID (an integer) and the details of the parcel (size and destination).
+
+// Output:
+
+// After processing all customers, print the customer ID and their corresponding parcel processing time.
+
+// For each customer, the processing time should be calculated and printed.
+
+// Details:
+
+// If the customer queue exceeds the maximum limit (10 customers), only the first 10 customers should be processed.
+
+// If a customer tries to enter invalid parcel details (size or destination), an error message should be displayed for that customer.
+
+// After processing each customer, their entry should be removed from the queue.
+
+// Example:
+
+// Input:
+// Enter number of customers: 3
+// Enter your Id: 1
+// Enter size of parcel (small/medium/large): medium
+// Enter destination (domestic/international): domestic
+// Enter your Id: 2
+// Enter size of parcel (small/medium/large): large
+// Enter destination (domestic/international): international
+// Enter your Id: 3
+// Enter size of parcel (small/medium/large): small
+// Enter destination (domestic/international): international
+
+// Output:
+
+// Processing 3 customers:
+// ------------
+// Customer ID: 1
+// Size of parcel: medium
+// Destination of parcel: domestic
+// Processing time is 6 sec
+// Parcel for customer processed!!
+// -----------------
+// Customer ID: 2
+// Size of parcel: large
+// Destination of parcel: international
+// Processing time is 11 sec
+// Parcel for customer processed!!
+// -----------------
+// Customer ID: 3
+// Size of parcel: small
+// Destination of parcel: international
+// Processing time is 7 sec
+// Parcel for customer processed!!
+// -----------------
+// All Customers have been served.
+
 #include <iostream>
 #include <string>
 using namespace std;
