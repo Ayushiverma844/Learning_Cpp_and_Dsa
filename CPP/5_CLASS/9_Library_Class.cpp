@@ -1,95 +1,92 @@
-🔖 Problem Statement: Library Management System - Book Lending Tracker
-You are tasked with developing a basic Library Management System that allows a librarian to manage book operations. Implement a program that can:
+// 🔖 Problem Statement: Library Management System - Book Lending Tracker
+// You are tasked with developing a basic Library Management System that allows a librarian to manage book operations. Implement a program that can:
 
-Add a new book to the library with its title and author.
+// Add a new book to the library with its title and author.
 
-Lend a book to a user if it is available.
+// Lend a book to a user if it is available.
 
-Return a book to the library and mark it as available.
+// Return a book to the library and mark it as available.
 
-Dynamically manage memory to store new books when the storage limit is reached.
+// Dynamically manage memory to store new books when the storage limit is reached.
 
-🧾 Functional Requirements:
-Implement a class Library with the following functionalities:
+// 🧾 Functional Requirements:
+// Implement a class Library with the following functionalities:
 
-Attributes:
+// Attributes:
 
-bookTitle (string)
+// bookTitle (string)
 
-author (string)
+// author (string)
 
-isAvailable (boolean)
+// isAvailable (boolean)
 
-Functions:
+// Functions:
 
-addBook(): Accepts book title and author name as input and sets availability to true.
+// addBook(): Accepts book title and author name as input and sets availability to true.
 
-lendBook(): Issues the book if available, else displays a message.
+// lendBook(): Issues the book if available, else displays a message.
 
-returnBook(): Returns the book and updates its availability status.
+// returnBook(): Returns the book and updates its availability status.
 
-Appropriate getter and setter methods for all data members.
+// Appropriate getter and setter methods for all data members.
 
-You must also handle dynamic memory reallocation for storing more books when the initial storage limit (10 books) is exceeded.
+// You must also handle dynamic memory reallocation for storing more books when the initial storage limit (10 books) is exceeded.
 
-💡 Input Format:
-On each iteration, user will choose one of the options:
+// 💡 Input Format:
 
-markdown
-Copy
-Edit
-1. Add Book Details
-2. Lend Book
-3. Return Book
-4. Exit
-For option 1, input:
+// On each iteration, user will choose one of the options:
+// 1. Add Book Details
+// 2. Lend Book
+// 3. Return Book
+// 4. Exit
 
-Book Title (string)
+// For option 1, input:
 
-Author Name (string)
+// Book Title (string)
 
-For option 2 and 3:
+// Author Name (string)
 
-Book Title (string)
+// For option 2 and 3:
 
-🖥️ Output Format:
-Display appropriate messages for each action:
+// Book Title (string)
 
-When a book is added.
+// 🖥️ Output Format:
+// Display appropriate messages for each action:
 
-When a book is lent or unavailable.
+// When a book is added.
 
-When a book is returned or if it's not found.
+// When a book is lent or unavailable.
 
-✅ Constraints:
-Initial capacity of the library is 10 books. Increase by 10 when exceeded.
+// When a book is returned or if it's not found.
 
-Titles are case-sensitive and unique.
+// ✅ Constraints:
+// Initial capacity of the library is 10 books. Increase by 10 when exceeded.
 
-Input strings can include spaces.
+// Titles are case-sensitive and unique.
 
-📌 Sample Interaction:
-mathematica
-Copy
-Edit
-1.) Add Book Details
-2.) Lend Book
-3.) Return Book
-4.) Exit
-Enter your choice: 1
-Enter Book Title: Clean Code
-Enter Book Author name: Robert C. Martin
-Book Clean Code is now available in the library.
+// Input strings can include spaces.
 
-Enter your choice: 2
-Enter Book Title: Clean Code
-Book Clean Code has been issued. Kindly return this book within the given time period. Thank you for visiting us.
+// 📌 Sample Interaction:
+// 1.) Add Book Details
+// 2.) Lend Book
+// 3.) Return Book
+// 4.) Exit
+// Enter your choice: 1
+// Enter Book Title: Clean Code
+// Enter Book Author name: Robert C. Martin
+// Book Clean Code is now available in the library.
 
-Enter your choice: 3
-Enter Book Title: Clean Code
-Book Clean Code is returned. Thank you.
+// Enter your choice: 2
+// Enter Book Title: Clean Code
+// Book Clean Code has been issued. Kindly return this book within the given time period. Thank you for visiting us.
 
-Enter your choice: 4
+// Enter your choice: 3
+// Enter Book Title: Clean Code
+// Book Clean Code is returned. Thank you.
+
+// Enter your choice: 4
+
+// -----------------------------------------------------------------------------------------------------------------------
 
 
 // Program to perform basic library operations
