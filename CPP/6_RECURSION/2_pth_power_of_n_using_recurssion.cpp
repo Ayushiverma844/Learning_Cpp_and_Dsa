@@ -1,48 +1,30 @@
-🔢 Problem: Compute Power Using Recursion
-Difficulty: Easy
-Topic: Recursion, Math
+//  Problem: Compute Power Using Recursion
+// Difficulty: Easy
+// Topic: Recursion, Math
 
-🧾 Problem Statement:
-Write a function that takes two integers n and p and returns the value of n raised to the power p (i.e., 
-𝑛
-𝑝
-n 
-p
- ) using recursion.
+// 🧾 Problem Statement:
+// Write a function that takes two integers n and p and returns the value of n raised to the power p using recursion.
 
-You must not use any built-in power functions.
+// You must not use any built-in power functions.
 
-🖥️ Function Signature:
-cpp
-Copy
-Edit
-int power(int n, int p);
-🚦Input:
-An integer n representing the base.
+// 🖥️ Function Signature:
+// int power(int n, int p);
+// 🚦Input:
+// An integer n representing the base.
 
-An integer p representing the exponent (non-negative).
+// An integer p representing the exponent (non-negative).
 
-🧾 Output:
-Return a single integer representing the result of 
-𝑛
-𝑝
-n 
-p
- .
+// 🧾 Output:
+// Return a single integer representing the result of (n^p)
 
-📥 Sample Input 1:
-ini
-Copy
-Edit
-n = 2  
-p = 3
-📤 Sample Output 1:
-Copy
-Edit
-8
+// 📥 Sample Input 1:
+// n = 2  
+// p = 3
+// 📤 Sample Output 1: (2^3)
+// 8  
 
 
-//Pth power of n using recurssion
+
 
 #include<iostream>
 using namespace std;
