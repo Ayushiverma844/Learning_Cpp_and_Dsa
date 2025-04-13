@@ -1,3 +1,7 @@
+// Problem Statement:
+// Write a C++ program to print the Fibonacci series up to n terms using a recursive function.
+//  The program should take the number of terms n as input from the user and display the corresponding Fibonacci sequence.
+
 #include <iostream>
 using namespace std;
 
