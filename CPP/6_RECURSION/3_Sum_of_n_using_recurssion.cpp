@@ -1,3 +1,7 @@
+// Problem Statement:
+// Write a C++ program to calculate the sum of the first n natural numbers using recursion.
+// The program should prompt the user to enter a number n and then use a recursive function to compute the sum 1 + 2 + ... + n. Finally, display the result.
+
 
 #include<iostream>
 using namespace std;
