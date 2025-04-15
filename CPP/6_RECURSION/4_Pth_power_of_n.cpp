@@ -2,11 +2,19 @@
 
                                   //Pth power of n using recurssion
 
+//  Problem Statement:
+
+// Write a C++ program to calculate the p-th power of a number n (i.e., n^p) using a recursive function. The program should prompt the user to enter a base number n and an exponent p, and then output the result of raising n to the power of p. The recursive function should use the relation:
+
+// n^p = n× n^(p−1)
+ 
+// with the base case being:
+
+// 𝑛^0 = 1
+             
 
 
-
-
-                                  #include<iostream>
+#include<iostream>
 using namespace std;
 
 // Function to calculate power using recursion
