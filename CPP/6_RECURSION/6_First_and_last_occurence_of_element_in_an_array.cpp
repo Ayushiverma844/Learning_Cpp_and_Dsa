@@ -29,9 +29,6 @@
 
 // Example:
 
-// yaml
-// Copy
-// Edit
 // Input:  arr[] = {1, 2, 3, 4, 2, 5, 2}, key = 2  
 // Output:  
 // First occurrence of 2 is at index: 1  
