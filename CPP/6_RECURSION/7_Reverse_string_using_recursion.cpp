@@ -1,4 +1,25 @@
-//Reverse string using recursion
+// Problem Statement: Reverse a String Using Recursion
+// Objective:
+// Write a C++ program to reverse a given string using a recursive approach.
+
+// Requirements:
+
+// Take a string as input from the user.
+
+// Use a recursive function to reverse the string.
+
+// Display the reversed string as output.
+
+// Constraints:
+
+// Do not use loops or inbuilt reverse functions.
+
+// Only recursion should be used to reverse the string.
+
+// Sample Input/Output:
+// Input:  Enter string: hello
+// Output: Reverse of hello is = olleh
+
 
 #include<iostream>
 #include<string>
