@@ -1,3 +1,12 @@
+// Problem Statement:
+// Write a C++ program to recursively replace every occurrence of the substring "pi" or "PI" in a given string with "3.14". 
+// The program should take a string input from the user and
+//  print the modified string directly using recursion without modifying the original string.
+
+
+
+
+
 #include<iostream>
 #include<string>
 using namespace std;
