@@ -1,4 +1,19 @@
-// Move all 'x' at the last of the string
+// ✅ Problem Statement:
+// Title: Move All 'x' Characters to the End of the String
+
+// Description:
+// Write a recursive function that takes a string as input and moves all the characters 'x' present in the string to the end, while maintaining the order of the other characters.
+
+// Input:
+// A string s consisting of lowercase English letters.
+
+// Output:
+// A new string with all 'x' characters moved to the end of the original string.
+
+// Example:
+// Input:  axxbdxcefxhix
+// Output: abdcefhixxx
+
 
 #include <iostream>
 using namespace std;
