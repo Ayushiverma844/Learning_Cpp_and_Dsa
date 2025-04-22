@@ -1,3 +1,26 @@
+// Problem Statement:
+// Title: Generate All Permutations of a String
+
+// Description:
+// Write a recursive function that prints all possible permutations of a given string. A permutation is an arrangement of all the characters of the string in any possible order.
+
+// Input:
+// A string s consisting of unique uppercase characters (e.g., "ABC").
+
+// Output:
+// Print all the permutations of the string, each on a new line.
+
+// Example Input:
+// ABC
+
+// Example Output:
+// ABC
+// ACB
+// BAC
+// BCA
+// CAB
+// CBA
+
 
 #include<iostream>
 #include<string>
