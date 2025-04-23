@@ -1,5 +1,4 @@
-//In a board game (ex= snake - ladder)  you can move forward by rolling a die (with numbers 1 to 6). .
-// How many path are there to reach at a perticular  point from the given point. 
+
 
 #include<iostream>
 using namespace std;
