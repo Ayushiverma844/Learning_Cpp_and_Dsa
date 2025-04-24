@@ -1,3 +1,21 @@
+// Problem Statement:
+// Check if an Array is Sorted using Recursion
+
+// Write a C++ program that takes a vector of integers as input and determines whether the array is sorted in non-decreasing order using a recursive function.
+
+// Implement a recursive function isSorted() that takes a vector of integers and its size as input.
+
+// The function should return true if the array is sorted in non-decreasing order, otherwise return false.
+
+// In the main() function, initialize a sample array and call the recursive function to check if the array is sorted.
+
+// Print "Array is sorted" if the array is in order, else print "Array is not sorted".
+
+// Example Output:
+// Array is sorted
+
+
+
 #include<iostream>
 #include<vector>
 
