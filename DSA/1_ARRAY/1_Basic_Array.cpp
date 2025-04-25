@@ -1,3 +1,28 @@
+// Problem Statement:
+
+// Write a C++ program that demonstrates the following:
+
+// Basic Array Operations:
+
+// Declare an integer array with 5 elements.
+
+// Display the size of the array and the number of elements in the array.
+
+// Array Input and Output Using Loops:
+
+// Declare an array to store marks of 5 students.
+
+// Allow the user to input the marks for 5 students using a loop.
+
+// Display the entered marks after the user provides the input.
+
+// Your program should perform the following:
+
+// Use sizeof to determine the size of the array and the number of elements.
+
+// Use loops to input and output the marks of students.
+
+
 #include<iostream>
 using namespace std;
 
