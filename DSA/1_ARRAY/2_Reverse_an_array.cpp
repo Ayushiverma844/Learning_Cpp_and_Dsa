@@ -1,3 +1,7 @@
+Problem Statement:
+// Write a C++ program that takes 10 integers as input from the user, stores them in an array, 
+// displays the entered integers in the order they were input, and then prints them in reverse order.
+
 #include<iostream>
 using namespace std;
 
