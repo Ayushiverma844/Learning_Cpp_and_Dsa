@@ -1,3 +1,16 @@
+// Problem Statement:
+// Write a C++ program that reads 10 integers from the user, stores them in an array, and then reverses the array elements in place using swapping.
+// The program should display the array both before and after reversing.
+
+// Requirements:
+
+// Create a function reverse(int arr[], int size) that swaps elements to reverse the array.
+
+// Take input of 10 integers from the user.
+
+// Display the array before and after reversing.
+
+
 #include <iostream>
 #include <algorithm>  // For the swap function
 using namespace std;
