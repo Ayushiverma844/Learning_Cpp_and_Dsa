@@ -1,3 +1,13 @@
+// Problem Statement:
+// Write a C++ program to search for a given number in an array of 10 integers entered by the user.
+// Implement a linear search algorithm to find the number.
+
+// If the number is found, output the index at which it is located.
+
+// If the number is not found, output -1.
+// (Note: Array indexing starts from 0.)
+
+
 #include<iostream>
 using namespace std;
 
