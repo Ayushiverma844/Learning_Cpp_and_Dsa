@@ -1,3 +1,24 @@
+// Problem Statement:
+// Write a C++ program to perform the following tasks:
+
+// Accept 10 integer values from the user and store them in an array.
+
+// Display all the entered integers.
+
+// Find and display the smallest number in the array.
+
+// Find and display the largest number in the array.
+
+// Requirements:
+
+// Implement two separate functions:
+
+// smallest(int arr[], int size) to find and return the smallest element.
+
+// largest(int arr[], int size) to find and return the largest element.
+
+// Use simple loops (for loops) for array input, output, and processing.
+
 #include<iostream>
 using namespace std;
 
