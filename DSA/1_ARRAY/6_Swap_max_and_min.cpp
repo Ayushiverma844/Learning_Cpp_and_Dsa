@@ -1,3 +1,9 @@
+Problem Statement:
+
+// Write a C++ program that accepts 10 integers from the user, 
+// stores them in an array, and then swaps the maximum and minimum elements of the array. 
+// Display the array before and after the swap.
+
 #include <iostream>
 #include <algorithm>  // For the swap function
 using namespace std;
