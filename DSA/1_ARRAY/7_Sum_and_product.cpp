@@ -1,3 +1,8 @@
+// Problem Statement:
+
+// Write a C++ program to input 10 integers from the user, store them in an array, and
+//  calculate both the sum and the product of all the array elements. Display the results.
+
 #include <iostream>
 #include <algorithm>  // For the swap function
 using namespace std;
