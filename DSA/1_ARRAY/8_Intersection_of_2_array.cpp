@@ -1,3 +1,23 @@
+// Problem Statement:
+
+// Write a C++ program to find and print the intersection of two integer arrays. The program should:
+
+// Take two predefined arrays arr1 and arr2 of different sizes.
+
+// Find common elements (intersection) between the two arrays.
+
+// Print the common elements only once (no duplicates in output).
+
+// If there are no common elements, print an appropriate message.
+
+// Constraints:
+
+// The arrays contain only integers.
+
+// The array elements are not necessarily sorted.
+
+// The output should avoid printing duplicates even if the same number appears multiple times in the second array.
+
 #include <iostream>
 using namespace std;
 
