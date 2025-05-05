@@ -1,3 +1,40 @@
+// Problem Statement:
+
+// Title: Maximum Sum of Subarray of Size K
+
+// Description:
+// Write a C++ program to find the maximum sum of any subarray of size k in a given array of integers. Use the sliding window technique to optimize the solution.
+
+// Input:
+
+// An integer n representing the size of the array.
+
+// n integers representing the elements of the array.
+
+// An integer k representing the size of the subarray.
+
+// Output:
+
+// An integer representing the maximum sum of any contiguous subarray of size k.
+
+// Constraints:
+
+// 1 ≤ k ≤ n ≤ 10⁶
+
+// Array elements can be positive, negative, or zero.
+
+// Example:
+
+// Input:
+// Enter size of array: 5
+// Enter elements: 2 1 5 1 3
+// Enter size of subarray: 3
+
+// Output:
+// Maximum subarray sum = 9
+
+
+
 #include <iostream>
 #include <vector>
 using namespace std;
