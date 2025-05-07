@@ -1,3 +1,33 @@
+// Problem Statement:
+
+// Title: Print a 2D Array in Spiral Order
+
+// Description:
+// Write a C++ program to input a 2D array (matrix) from the user and print its elements in spiral order. Spiral order means traversing the matrix in a clockwise spiral from the top-left corner.
+
+// Input:
+
+// Two integers r and c representing the number of rows and columns in the matrix.
+
+// r × c integers representing the elements of the matrix.
+
+// Output:
+
+// Print the elements of the matrix in spiral order, separated by spaces.
+
+// Example:
+
+// Input:
+// Enter number of rows and columns: 3 3  
+// Enter the elements of the array:  
+// 1 2 3  
+// 4 5 6  
+// 7 8 9  
+
+// Output:
+// Spiral Order of the array is: 1 2 3 6 9 8 7 4 5
+
+
 #include<iostream>
 using namespace std;
 
