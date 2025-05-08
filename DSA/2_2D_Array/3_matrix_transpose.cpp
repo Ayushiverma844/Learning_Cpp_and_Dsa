@@ -1,3 +1,35 @@
+// Problem Statement:
+
+// Title: Transpose of a Square Matrix
+
+// Description:
+// Write a C++ program to input a square matrix of size n × n from the user, compute its transpose, and print the transposed matrix.
+// The transpose of a matrix is obtained by swapping elements across its main diagonal (i.e., arr[i][j] becomes arr[j][i]).
+
+// Input:
+
+// An integer n representing the size of the square matrix.
+
+// n × n integers representing the elements of the matrix.
+
+// Output:
+
+// Print the transposed matrix.
+
+// Example:
+// Input:
+// Enter size: 3  
+// Enter values:  
+// 1 2 3  
+// 4 5 6  
+// 7 8 9  
+
+// Output:
+// Transposed matrix:  
+// 1 4 7  
+// 2 5 8  
+// 3 6 9
+
 #include<iostream>
 using namespace std;
 
