@@ -1,3 +1,25 @@
+// Problem Statement: Linear Search in an Array
+// Write a C++ program to search a specific number in a one-dimensional integer array using linear search. The program should return the index of the number if found, otherwise return -1.
+
+// Input:
+// 10 integers to be stored in the array.
+
+// An integer (target) to search in the array.
+
+// Output:
+// If the number is found, print the index at which it is found.
+
+// If not found, print that the number is not present.
+
+// Example:
+// Input:
+// Enter 10 integers:
+// 5 8 2 9 1 4 3 6 7 0  
+// Enter no to search:  
+// 4
+// Output:
+// Numbeer is present at index = 5.
+
 #include<iostream>
 using namespace std;
 
