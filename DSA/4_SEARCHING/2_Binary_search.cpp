@@ -22,7 +22,7 @@
 // Output:
 // Element found at index: 3
 
-// ⚠️ Note:
+//  Note:
 // The array must be sorted before applying binary search.
 
 // Indexing is zero-based.
