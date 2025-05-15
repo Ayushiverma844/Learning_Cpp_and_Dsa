@@ -1,3 +1,35 @@
+//  Problem Statement: Binary Search in a Sorted Array
+// Write a C++ program to search a given number in a sorted array using the Binary Search algorithm. If the element is found, return its index; otherwise, return -1.
+
+// Input:
+// An integer n representing the size of the array.
+
+// n sorted integers (in increasing order).
+
+// An integer key to search in the array.
+
+// Output:
+// If the key is found, display its index.
+
+// If the key is not found, display an appropriate message.
+
+// Example:
+// Input:
+// Enter size of array: 6  
+// Enter elements: 1 3 5 7 9 11  
+// Enter value to search: 7
+
+// Output:
+// Element found at index: 3
+
+// ⚠️ Note:
+// The array must be sorted before applying binary search.
+
+// Indexing is zero-based.
+
+
+
+
 #include<iostream>
 using namespace std;
 
