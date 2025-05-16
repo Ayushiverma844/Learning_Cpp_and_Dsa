@@ -1,3 +1,26 @@
+//  Problem Statement: Recursive Binary Search in a Sorted Array
+// Write a C++ program to implement binary search using recursion. The program should search for a given element in a sorted array. If found, return its index; otherwise, return -1.
+
+// Input:
+// An integer n representing the size of the array.
+
+// n sorted integers (in increasing order).
+
+// An integer target to search in the array.
+
+// Output:
+// If the target is found, display its index.
+
+// If not found, print a message indicating so.
+
+// Example:
+// Input:
+// Enter size of array: 6  
+// Enter elements: 2 4 6 8 10 12  
+// Enter value to search: 10
+// Output:
+// Element found at index: 4
+
 #include<iostream>
 using namespace std;
 
