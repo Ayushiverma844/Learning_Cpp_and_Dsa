@@ -1,3 +1,32 @@
+// Problem Statement:
+// Title: Sort an Array using Selection Sort
+
+// Objective:
+// Write a C++ program that takes an array of integers as input from the user, sorts it using the Selection Sort algorithm, and displays the sorted array.
+
+// Requirements:
+
+// Prompt the user to enter the size of the array.
+
+// Accept n integer values from the user and store them in an array.
+
+// Implement the Selection Sort algorithm to sort the array in ascending order.
+
+// Display the sorted array as output.
+
+// Constraints:
+
+// Array size n must be a positive integer.
+
+// Elements can be positive or negative integers.
+
+// Sample Input/Output:
+// Enter size: 5
+// Enter 5 integers:
+// 9 4 2 6 1
+
+// Array after sorting:
+// 1 2 4 6 9
 
 #include<iostream>
 using namespace std;
