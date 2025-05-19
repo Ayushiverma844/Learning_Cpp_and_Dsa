@@ -1,3 +1,31 @@
+//  Problem Statement:
+// Title: Sort an Array using Insertion Sort
+
+// Objective:
+// Write a C++ program to sort an array of integers using the Insertion Sort algorithm. The program should accept input from the user, sort the array in ascending order, and display the sorted array.
+
+// Requirements:
+
+// Ask the user to input the number of elements (size) for the array.
+
+// Accept size number of integer inputs and store them in an array.
+
+// Implement the Insertion Sort algorithm to sort the array in ascending order.
+
+// Print the sorted array as output.
+
+// Constraints:
+
+// The array size must be a positive integer.
+
+// Elements can be both positive and negative integers.
+
+// Sample Input/Output:
+// Enter size: 5  
+// Enter 5 values: 8 4 2 9 1  
+// Sorted array: 1 2 4 8 9  
+
+
 #include<iostream>
 using namespace std;
 
