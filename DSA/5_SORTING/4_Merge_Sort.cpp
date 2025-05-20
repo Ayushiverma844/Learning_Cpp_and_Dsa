@@ -1,3 +1,30 @@
+//  Problem Statement:
+// Title: Sort an Array using Merge Sort (with Vectors)
+
+// Objective:
+// Write a C++ program to sort a list of integers using the Merge Sort algorithm. The program should use the STL vector for dynamic array handling and implement a recursive merge sort with a helper merge function to combine sorted parts.
+
+// Requirements:
+
+// Define a vector of integers and initialize it with unsorted values.
+
+// Implement the Merge Sort algorithm using recursion to divide the array and a helper merge() function to combine the sorted parts.
+
+// Display the array before and after sorting.
+
+// Constraints:
+
+// The vector should contain at least one element.
+
+// Sorting should be done in ascending order.
+
+// Sample Input/Output:
+// Given:==>
+// 12 31 35 8 32 17
+
+// After sorting:==>
+// 8 12 17 31 32 35
+
 #include<iostream>
 #include<vector>
 using namespace std;
