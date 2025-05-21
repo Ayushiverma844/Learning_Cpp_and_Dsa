@@ -1,3 +1,35 @@
+//  Problem Statement:
+// Title: Sort an Array using Quick Sort (with Vectors)
+
+// Objective:
+// Write a C++ program to sort a list of integers using the Quick Sort algorithm. Use recursion and partitioning logic, and store the data in a vector. The pivot should be chosen as the last element during partitioning.
+
+// Requirements:
+
+// Use a vector<int> to store an unsorted array of integers.
+
+// Implement the Quick Sort algorithm with:
+
+// A partition() function to place the pivot in its correct position.
+
+// A QuickSort() function to recursively sort subarrays.
+
+// Display the array before and after sorting.
+
+// Constraints:
+
+// The vector must contain at least one integer.
+
+// Sorting should be done in ascending order.
+
+// Sample Input/Output:
+
+// Given:==>
+// 12 31 35 8 32 17
+
+// After sorting:==>
+// 8 12 17 31 32 35
+
 #include<iostream>
 #include<vector>
 using namespace std;
