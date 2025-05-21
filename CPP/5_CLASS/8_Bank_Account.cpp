@@ -1,8 +1,8 @@
-// 🏦 Problem Title: Basic Banking System Simulator
+// Problem Title: Basic Banking System Simulator
 // Difficulty: Medium
 // Category: OOP / Simulation
 
-// 🧾 Problem Description:
+// Problem Description:
 // You are required to simulate a basic banking system where a user can:
 
 // Create multiple bank accounts.
@@ -13,21 +13,21 @@
 
 // Each account is automatically assigned a unique account number based on a predefined pattern. The system should dynamically handle multiple accounts and support basic banking operations.
 
-// 🧩 Functionalities to Implement:
+// Functionalities to Implement:
 // Design a class BankAccount with the following features:
 
-// 🔹 CreateBankAccount(int count)
+// CreateBankAccount(int count)
 // Generates a unique account number using the format "242040312" followed by a count number.
 
 // Takes input for the account holder's name and initial balance.
 
-// 🔹 deposit(float amount)
+// deposit(float amount)
 // Deposits the given amount into the account and prints a success message.
 
-// 🔹 withdraw(float amount)
+// withdraw(float amount)
 // Withdraws the given amount only if sufficient balance is available; else, prints an error.
 
-// 📥 Input Format:
+// Input Format:
 // The program starts with an empty list of bank accounts.
 
 // Users are shown a menu to choose:
@@ -42,10 +42,10 @@
 
 // Each choice will require relevant user input (like account number, name, amount, etc.).
 
-// 📤 Output Format:
+// Output Format:
 // Print appropriate messages for account creation, deposit, withdrawal, and error handling (like invalid account number or insufficient balance).
 
-// 🚫 Constraints:
+// Constraints:
 // Account holder name: string (up to 50 characters)
 
 // Balance and deposit/withdraw amounts: float (positive numbers only)
@@ -60,7 +60,7 @@
 
 // "242040312" + count (if count ≥ 100)
 
-// ✅ Sample Input / Output:
+// Sample Input / Output:
 
 // 1.) Create Account
 // 2.) Deposit Amount
