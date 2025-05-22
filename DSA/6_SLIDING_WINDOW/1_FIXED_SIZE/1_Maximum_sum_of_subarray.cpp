@@ -1,3 +1,35 @@
+//  Problem Statement:
+// Title: Maximum Sum of Subarray of Size K using Sliding Window
+
+// Description:
+
+// Write a C++ program to find the maximum sum of a contiguous subarray of size k from a given array of integers using the Sliding Window Technique.
+
+// Input:
+// An integer n representing the size of the array.
+
+// n integers representing the elements of the array.
+
+// An integer k representing the size of the subarray.
+
+// Output:
+// Print the maximum sum among all contiguous subarrays of size k.
+
+// Constraints:
+// 1 <= k <= n <= 10^6
+
+// -10^5 <= arr[i] <= 10^5
+
+// Example:
+// Input:
+
+// Enter size of array: 5  
+// Enter elements: 1 4 2 10 23  
+// Enter size of subarray: 3
+
+// Output:
+// Maximum subarray sum = 35
+
 #include <iostream>
 #include <vector>
 using namespace std;
