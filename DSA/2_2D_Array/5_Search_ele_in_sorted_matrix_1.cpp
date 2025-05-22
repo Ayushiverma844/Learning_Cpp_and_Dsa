@@ -48,44 +48,48 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-    int n,m;
-    cout << "Enter size of row and coloumn: ";
-    cin >> n>>m;
-    int a[n][m];   
+int main() {
+    int n, m;
+    cout << "Enter size of row and column: ";
+    cin >> n >> m;
+
+    int a[n][m]; // Matrix declaration
     bool found = false;
 
-    // Store elements in 1st matrix
-    cout << "Enter values of 1st matrix: ";
+    // Input the matrix
+    cout << "Enter values of the matrix: ";
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < m; j++) {
             cin >> a[i][j];
         }
     }
-    
+
+    // Input the target value
     int target;
-    cout<<"Enter target value to search: " ;
-    cin>>target;
+    cout << "Enter target value to search: ";
+    cin >> target;
 
-    int r=0 , c=m-1;   // Start from top-right corner
+    // Start from the top-right corner
+    int r = 0, c = m - 1;
 
-    while(r<n && c>=0){
-        if(a[r][c] == target){
+    // Search logic
+    while(r < n && c >= 0) {
+        if(a[r][c] == target) {
             found = true;
-            break;  // Exit the loop once the target is found
-        }
-        else if(a[r][c] > target){
-            c--;   // Move left if the target is smaller
-        }else{
-            r++;   // Move down if the target is larger
+            break;
+        } else if(a[r][c] > target) {
+            c--; // Move left
+        } else {
+            r++; // Move down
         }
     }
-    
-      // Output the result
-       if(found){
-        cout<<"element found.";
-       }else{
-        cout<<"Element does not exit.";
-       }
-    return 0; 
+
+    // Output the result
+    if(found) {
+        cout << "element found.";
+    } else {
+        cout << "Element does not exist.";
+    }
+
+    return 0;
 }
