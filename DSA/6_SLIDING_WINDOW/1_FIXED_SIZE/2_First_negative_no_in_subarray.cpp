@@ -1,3 +1,21 @@
+// Problem Statement:
+
+// You are given an array of integers and a positive integer k. Your task is to find the first negative integer in every contiguous subarray (or window) of size k.
+// If a window does not contain any negative number, output 0 for that window.
+
+// Input:
+
+// An array of n integers (can be positive or negative)
+
+// An integer k representing the size of the subarray (window)
+
+// Output:
+
+// A list of integers where each element is the first negative number in the corresponding subarray of size k, or 0 if none exists.
+
+
+
+
 #include<iostream>
 #include<vector>
 using namespace std;
