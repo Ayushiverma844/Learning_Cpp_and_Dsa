@@ -1,3 +1,33 @@
+//  Problem Statement: Maximum in Each Subarray of Size k
+//  Objective:
+// Write a program to find the maximum element in every contiguous subarray of size k from a given array of integers.
+
+//  Problem Description:
+// Given an array of integers and a positive integer k, your task is to slide a window of size k across the array and print the maximum element in each window (subarray).
+
+//  Input:
+// An array arr[] of integers (in the given code, it's hardcoded as {1, 2, 3, 4, -5, 6}).
+
+// An integer k representing the size of the subarray (input from the user).
+
+//  Output:
+// A list of integers representing the maximum element from each subarray of size k.
+
+//  Example:
+// Input:
+
+// arr[] = {1, 2, 3, 4, -5, 6}
+// k = 3
+// Output:
+// Maximum of each subarray: 3 4 4 6
+
+// Constraints:
+// 1 ≤ k ≤ size of the array
+
+// The array contains both positive and negative integers.
+
+
+
 #include <iostream>
 #include <vector>
 using namespace std;
