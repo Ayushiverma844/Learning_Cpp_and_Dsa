@@ -1,3 +1,26 @@
+// Problem Statement:
+// Given an array of positive integers and an integer k, find the maximum length of a contiguous subarray whose sum is exactly equal to k.
+
+//  Input:
+// An integer array arr[] of size n.
+
+// An integer value k representing the target sum.
+
+//  Output:
+// The length of the longest subarray whose sum is exactly k.
+
+//  Example:
+// Input:
+// arr[] = {4, 1, 1, 1, 2, 3, 5}
+// k = 5
+
+// Output:
+// Maximum size subarray of sum 5 is 4
+// Explanation:
+// The subarray {1, 1, 1, 2} adds up to 5 and has the maximum length of 4.
+
+
+
 #include <iostream>
 #include <vector>
 using namespace std;
