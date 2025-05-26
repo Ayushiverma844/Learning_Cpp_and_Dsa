@@ -1,3 +1,19 @@
+// Problem Statement:
+
+// You are given an array of integers where each integer represents a type of toy. You are also given an integer k which denotes the maximum number of distinct toy types you are allowed to pick at a time.
+
+// Your task is to find the maximum number of toys you can pick from the array such that you do not pick more than k distinct toy types.
+
+// Input:
+
+// A vector of integers toys representing the sequence of toys.
+
+// An integer k representing the maximum number of distinct toy types allowed.
+
+// Output:
+
+// Return the maximum number of toys that can be picked without exceeding the k distinct types constraint.
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
