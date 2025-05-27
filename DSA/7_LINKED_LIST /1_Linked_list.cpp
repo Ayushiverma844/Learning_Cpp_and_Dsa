@@ -1,3 +1,33 @@
+//  Problem Statement:
+
+// Write a C++ program to implement a singly linked list with the following functionalities:
+
+// Node creation using dynamic memory allocation (new keyword).
+
+// Insertions:
+
+// At the beginning of the list.
+
+// At the end of the list.
+
+// At a specified position in the middle.
+
+// Deletion of all nodes containing a specific value.
+
+// Counting the total number of nodes in the linked list.
+
+// Displaying the elements of the linked list.
+
+// Demonstrate the functionality in the main() function by:
+
+// Creating and connecting initial nodes.
+
+// Deleting specific nodes.
+
+// Inserting new nodes at various positions.
+
+// Displaying the list after each operation.
+
 #include <iostream>
 using namespace std;
 
