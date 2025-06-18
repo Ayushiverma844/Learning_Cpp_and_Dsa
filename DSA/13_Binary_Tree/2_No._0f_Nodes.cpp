@@ -1,3 +1,24 @@
+// Problem Statement:
+// Write a C++ program to build a binary tree from a given preorder traversal array where -1 represents a NULL node, and then count the total number of nodes in the constructed binary tree.
+
+// Example Input:
+// Preorder traversal array:
+// {1, 2, -1, -1, 3, 4, -1, -1, 5, -1, -1}
+
+// Example Output:
+// Total Nodes 5
+
+// Explanation:
+// The tree structure from the given input will be:
+
+//         1
+//        / \
+//       2   3
+//          / \
+//         4   5
+// Number of nodes = 5 (nodes with values 1, 2, 3, 4, 5)
+
+
 #include<iostream>
 #include<vector>
 using namespace std;
