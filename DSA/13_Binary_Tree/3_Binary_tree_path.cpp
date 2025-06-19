@@ -1,3 +1,24 @@
+// Problem Statement: Binary Tree Paths
+
+// Given the preorder traversal of a binary tree, where -1 represents a NULL node, construct the binary tree and return all root-to-leaf paths in the tree.
+
+// Each path should be returned as a string in the following format:
+
+// "root->node1->node2->...->leaf"
+// Input
+// A vector of integers representing the preorder traversal of a binary tree.
+// The value -1 denotes a null node.
+
+// Output
+// A vector of strings, where each string represents a path from the root to a leaf.
+
+// Example
+// Input:
+// preorder = [1, 2, -1, -1, 3, 4, -1, -1, 5, -1, -1]
+
+// Output:
+// ["1->2", "1->3->4", "1->3->5"]
+
 #include <iostream>
 #include <vector>
 using namespace std;
