@@ -1,3 +1,29 @@
+//  Problem Statement:
+
+// Given a binary tree represented by its preorder traversal where -1 denotes a NULL node, construct the binary tree and then flatten it into a right-skewed linked list in-place, following preorder traversal order.
+
+// Finally, print the flattened tree as a linked list where each node points to the next using the right pointer and the left pointer is set to NULL.
+
+//  Example:
+
+// Input Preorder Traversal:
+// {1, 2, -1, -1, 3, 4, -1, -1, 5, -1, -1}
+
+// This represents the binary tree:
+
+//        1
+//       / \
+//      2   3
+//         / \
+//        4   5
+// After Flattening (Right Skewed Linked List):
+
+// rust
+// Copy
+// Edit
+// 1 -> 2 -> 3 -> 4 -> 5
+// Each node points to the next using its right pointer, and all left pointers are NULL.
+
 #include <iostream>
 #include <vector>
 using namespace std;
