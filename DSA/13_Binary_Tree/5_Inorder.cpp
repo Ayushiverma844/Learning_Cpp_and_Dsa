@@ -1,4 +1,27 @@
-//inorder
+//inorder traversal
+
+// Problem Statement:
+
+// You are given the preorder traversal of a binary tree, where -1 represents a NULL node. Your task is to:
+
+// Reconstruct the binary tree from the given preorder traversal.
+
+// Print the inorder traversal of the reconstructed binary tree.
+
+// Input:
+
+// A vector of integers representing the preorder traversal of a binary tree.
+// Example: {1, 2, -1, -1, 3, 4, -1, -1, 5, -1, -1}
+
+// Output:
+
+// Print the inorder traversal of the constructed binary tree.
+
+// Constraints:
+
+// Each element in the input vector is either an integer value of a node or -1 for a NULL node.
+
+// The binary tree follows the standard definition: each node has at most two children.
 
 #include<iostream>
 #include<vector>
