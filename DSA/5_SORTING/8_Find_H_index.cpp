@@ -1,3 +1,19 @@
+// Problem Statement:
+
+// Given a list of integers representing the number of citations for each of a researcher's papers, compute the researcher's H-Index.
+
+// The H-Index is defined as the maximum value h such that the researcher has published h papers that have each been cited at least h times.
+
+// Input:
+
+// An integer n representing the number of papers.
+
+// A list of n integers where each integer represents the number of citations for a paper.
+
+// Output:
+
+// An integer representing the H-Index of the researcher.
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
