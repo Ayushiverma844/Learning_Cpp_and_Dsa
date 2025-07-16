@@ -1,4 +1,31 @@
+// Problem Statement:
 
+// Given an array arr consisting only of 0s, 1s, and 2s, sort the array in ascending order in-place without using any sorting algorithm.
+
+// Constraints:
+
+// 1 <= N <= 10^6
+
+// 0 <= arr[i] <= 2
+
+// Input:
+
+// The first line contains an integer N — the size of the array.
+
+// The second line contains N space-separated integers (only 0s, 1s, and 2s).
+
+// Output:
+
+// Print the sorted array in ascending order.
+
+// Example:
+
+// Input:
+// 6
+// 0 2 1 2 0 1
+
+// Output:
+// 0 0 1 1 2 2
 
 #include <iostream>
 using namespace std;
