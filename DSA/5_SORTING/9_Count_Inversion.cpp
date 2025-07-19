@@ -1,3 +1,31 @@
+// Problem Statement:
+
+// You are given an array of integers. Your task is to count the number of inversions in the array.
+
+// An inversion is a pair of indices (i, j) such that:
+
+// i < j, and
+
+// arr[i] > arr[j]
+
+// Write a program to return the total number of such inversion pairs in the array.
+
+// Input:
+
+// The first line contains a single integer n — the number of elements in the array.
+
+// The second line contains n space-separated integers — the elements of the array.
+
+// Output:
+
+// Output a single integer — the total number of inversion pairs in the array.
+
+// Constraints:
+
+// 1 ≤ n ≤ 10^5
+
+// 1 ≤ arr[i] ≤ 10^9
+
 #include <iostream>
 using namespace std;
 
