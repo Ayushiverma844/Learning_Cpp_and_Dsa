@@ -1,3 +1,15 @@
+// Problem Statement:
+
+// You are given the preorder traversal of a binary tree where -1 represents a NULL (i.e., absent) node. Your task is to:
+
+// Reconstruct the binary tree from the given preorder traversal.
+
+// Perform a postorder traversal of the reconstructed binary tree.
+
+// Output the postorder traversal as a space-separated sequence of node values.
+
+
+
 #include<iostream>
 #include<vector>
 using namespace std;
