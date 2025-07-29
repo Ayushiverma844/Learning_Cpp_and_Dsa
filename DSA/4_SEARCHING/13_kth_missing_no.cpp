@@ -1,3 +1,35 @@
+// Problem Statement:
+
+// Given a sorted array arr[] of positive integers and an integer k, your task is to find the k-th missing positive number that is not present in the array.
+
+// Input:
+// An integer n representing the size of the array.
+// An integer k representing the k-th missing number to find.
+// A sorted array arr[] of size n, containing unique positive integers.
+
+// Output:
+// Return the k-th missing positive number that does not appear in the array.
+
+// Constraints:
+// 1 <= n <= 1000
+// 1 <= arr[i] <= 10^4
+// 1 <= k <= 1000
+
+// Example:
+
+// Input:
+// n = 5, k = 2
+// arr = [2, 3, 4, 7, 11]
+
+// Output:
+// 5
+
+// Explanation:
+// Missing numbers are [1, 5, 6, 8, 9, 10, ...]
+// The 2nd missing number is 5.
+
+
+
 #include <iostream>
 using namespace std;
 
